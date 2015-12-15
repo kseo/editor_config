@@ -20,7 +20,7 @@ class ParseError extends Error {
 }
 
 class EditorConfig {
-  List<_Lookup> _lookupFuncs = [];
+  final List<_Lookup> _lookupFuncs = [];
 
   static bool _parseBool(String value) {
     switch (value) {
